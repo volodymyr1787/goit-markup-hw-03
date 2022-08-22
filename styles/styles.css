@@ -1,0 +1,256 @@
+:root {
+    --primary-white-fon: #FFFFFF;
+    --white-text-color: #FFFFFF;
+    --black-text-color: #000000;
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --item-text-color: #757575;
+    --dark-fon: #2F303A;
+    --grey-fon: #F5F4FA;
+    --light-fon: #EEEEEE;
+
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* хедер */
+
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+}
+.navigation .logo-studio {
+    color: var(--black-text-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+/* навігація */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color); 
+}
+
+/* контакти */
+
+.contacts .link {
+    color: var(--item-text-color);
+
+    text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* main */
+
+/* hero */
+
+.hero {
+    background: var(--dark-fon);
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+
+        color: var(--white-text-color);
+}
+
+.hero .btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--white-text-color);
+
+    background: var(--accent-color);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    cursor: pointer;
+    
+}
+
+/* section */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.feature-list .item,
+.teamcard-list .item,
+.project-list .item {
+    color: var(--item-text-color);
+}
+
+/* Особливості */
+
+.feature-list .title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .item {
+    line-height: 1.71;
+}
+
+/* Чим ми займаємося */
+
+
+/* Наша команда */
+
+.team {
+    background: var(--grey-fon);
+}
+
+.card {
+    background-color: var(--primary-white-fon);
+}
+
+.teamcard-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+   
+}
+
+.teamcard-list .item {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+    background: var(--dark-fon);
+}
+
+.footer .logo-studio {
+    color: var(--white-text-color);
+}
+
+.address-list {
+    font-style: normal;
+    line-height: 1.71;
+
+    
+}
+
+.address-list .link-map {
+    color: var(--white-text-color);
+    text-decoration: none;
+}
+
+.address-list .link-map:hover,
+.address-list .link-map:focus {
+    color: var(--accent-color);
+}
+
+
+.address-list .link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* портфоліо */
+
+.filter-list .btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    background: var(--grey-fon);
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.filter-list .btn:hover,
+.filter-list .btn:focus {
+    color: var(--white-text-color);
+    
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+.project-list {
+    background: var(--primary-white-color);
+    border: 1px solid var(--light-fon);
+}
+
+.project-list .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list .item {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.project {
+}
+
+
+
+
